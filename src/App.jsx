@@ -5,6 +5,7 @@ import './App.css'
 import './service/firebase'
 import Header from './components/Header'
 import { AuthProvider}  from './providers/AuthProvider'
+import Dashboad from './components/Dashboad'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <>
     <AuthProvider>
     <Header />
+    <Dashboad />
 
       <h1>Vite + React</h1>
 
